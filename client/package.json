@@ -22,8 +22,7 @@
     "eject": "react-scripts eject",
     "css": "tachyons src/css/app.css > src/index.css --minify",
     "prestart": "npm run css",
-    "prebuild": "npm run css",
-    "deploy": "npm run build && aws s3 sync build/ s3://stripe-react-app"
+    "prebuild": "npm run css"
   },
   "eslintConfig": {
     "extends": "react-app"
