@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "cd client && npm start",
-    "server": "cd server/node && sls offline",
+    "server": "cd server && sls offline",
     "start": "concurrently -n 💻,🚀 \"npm run client\" \"npm run server\""
   },
   "author": "Douglas Petla",
